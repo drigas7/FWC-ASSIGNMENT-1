@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[document]{ragged2e}
+\usepackage{tabularx}
+\usepackage{geometry}
+\author{By Pranjal Singh}
+\title{FWC-1 Assignment -1 }
+\date{August 2022}
+\begin{document}
+
+\maketitle % <==========================================================
+
+Derive a Canonical POS expression for a Boolean function  F, represented by the following truth table :
+\\
+\vspace{10px}
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X | 
+  | >{\centering\arraybackslash}X |
+  }
+ \hline
+ P & Q & R & F(P,  Q,  R) \\
+ \hline
+ 0  & 0  & 0 & 0  \\
+\hline
+0  & 0  & 1 & 1  \\
+\hline
+0  & 1  & 0 & 1  \\
+\hline
+0  & 1  & 1 & 0  \\
+\hline
+1  & 0  & 0 & 0  \\
+\hline
+1  & 0  & 1 & 0  \\
+\hline
+1  & 1  & 0 & 1  \\
+\hline
+1  & 1  & 1 & 1  \\
+\hline
+\end{tabularx}
+
+\vspace{20px}
+Answer: 
+\\
+F=  P,Q,R(0,3,4,5)= (P+Q+R)*(P+Q'+R')*(P'+Q+R)*(P'+Q+R')
+is the canonical POS form for the given Boolean function.
+\vspace{40px}
+\\
+\begin{Center}
+\mbox{}
+\vfill
+\fbox{\begin{minipage}{23em}
+https://github.com/drigas7/FWC-ASSIGNMENT-1
+\end{minipage}}
+\end{Center}
+\end{document}
