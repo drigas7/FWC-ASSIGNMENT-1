@@ -3,10 +3,10 @@ int P,Q,R,S;
 void setup() // the setup function runs once when you press reset or power the board
 {
 
-    pinMode(2, INPUT);//LSB 
-    pinMode(3, INPUT);
-    pinMode(4, INPUT);//MSB
-    pinMode(13, OUTPUT);
+    pinMode(2,INPUT);//LSB 
+    pinMode(3,INPUT);
+    pinMode(4,INPUT);//MSB
+    pinMode(13,OUTPUT);
 
 
 }
