@@ -24,7 +24,7 @@ void loop() // the loop function runs over and over again forever
 
 S= (P||Q||R)&&(P||!Q||!R)&&(!P||Q||R)&&(!P||Q||!R);
 
-if(S==0 
+if(S==0) 
 {
 digitalWrite(13,HIGH);}
 else 
